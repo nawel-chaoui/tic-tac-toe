@@ -117,13 +117,13 @@ def create():
 
 
 
-def vs_ia():
+def vs_ia():  #pas réussit à implenter
     reinit()
     
     
     
 
-def versus_joueur():
+def versus_joueur(): # reset le plateau
     reinit()
 
 
@@ -171,3 +171,4 @@ dessin.bind('<Button-1>', afficher)
 ################ Programme principal ################ 
 reinit()
 fen.mainloop()        
+
